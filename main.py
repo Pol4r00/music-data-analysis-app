@@ -28,7 +28,7 @@ def handle_action(user_input):
 
 def output_sorted_list():
     db_size = 0
-    with open('music_data.csv', newline='', encoding='utf-8') as csvfile:
+    with open('music_data(small).csv', newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         artist_list = {}
 
